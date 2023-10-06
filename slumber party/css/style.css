@@ -1,0 +1,107 @@
+header {
+    font-family: 'Caveat',cursive;
+    background-color: #2f2f5d; /* Header background color */
+    color: #67817e; /* Header text color */
+    text-align: center;
+    padding: 1em;
+    
+}
+
+/* Style the main content section (lyrics)*/
+#lyrics {
+    padding: 1em;
+}
+#lyrics>img{
+
+    filter:brightness(0.5);
+    width:100em;
+    height:auto;
+}
+
+/* Bold and intense lyrics */
+.bold {
+    font-family: 'Caveat',cursive;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    color: #b0aeb9; /* Bold red text color for emph*/
+   
+}
+
+.intense {
+font-family: 'zeyada',cursive;
+font-weight: bold;
+font-size: 35px;
+text-align: center;
+color: #53455d;
+}
+
+/* Playful lyrics */
+.playful {
+    font-family: 'Caveat', cursive; /* Comic Sans for playfulness */
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    color: #6c4d8a; /* Pinkish text color for playfulness */
+}
+.Big{
+    font-family: 'julee',cursive;
+    font-size: 52px;
+    text-align: center;
+    color: #222027;
+}
+/* Energetic and excited lyrics */
+.energetic, .excited {
+    font-family: 'Caveat', cursive; 
+    font-size: 22px;
+    text-align: left;
+    color: #b0aeb9; /* Yellow text color for energy and excitement */
+}
+
+/* Sexy and sensual lyrics */
+.sexy {
+    font-family: 'Caveat', cursive; /* Custom cursive font for sensuality */
+    font-size: 22px;
+    text-align: left;
+    color: #ce6ea7; /* Magenta text color for sensuality */
+}
+
+/* Shy and reserved lyrics */
+.shy {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #060505; /* Gray text color for shyness */
+}
+
+/* Laughing lyrics */
+.laugh {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Zeyada', cursive; /* Custom cursive font for laughter */
+    color: #0d0c0a; /* Orange text color for laughter */
+}
+
+/* Chorus lyrics */
+.chorus {
+    font-family: 'julee',cursive;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    color: #000000; /* Default text color for chorus */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+ 
+body{
+    
+    background-size: 98em 195em;
+    background-repeat: no-repeat;
+}
